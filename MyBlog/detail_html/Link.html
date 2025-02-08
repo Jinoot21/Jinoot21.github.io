@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Link</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-image: url(./detail_html_image/Whitewall.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .link-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      flex-direction: column;
+    }
+
+    .video-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      flex-direction: column;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      margin-top: 20px;
+    }
+  </style>
+  
+  <link rel="stylesheet" href="./detail_html_css/Link.css">
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const linkContainer = document.querySelector('.link-container');
+      const videoContainer = document.querySelector('.video-container');
+
+      const linkHeading = document.createElement('h1');
+      linkHeading.textContent = '참고했던 웹사이트';
+      linkContainer.insertBefore(linkHeading, linkContainer.firstChild);
+
+      const videoHeading = document.createElement('h1');
+      videoHeading.textContent = '참고했던 유튜브';
+      videoContainer.insertBefore(videoHeading, videoContainer.firstChild);
+    });
+  </script>
+</head>
+
+<body>
+  <div class="link-container">
+    <ul>
+      <li><a href="https://pixabay.com/ko/">저작권 없는 사진 웹사이트</a></li>
+      <li><a href="https://www.weather.go.kr/w/obs-climate/land/past-obs/obs-by-day.do">과거 날씨 관측</a></li>
+      <li><a href="https://weather.naver.com">일기 예보 관측</a></li>
+      <li><a href="https://perfumegraphy.com/index.html">향수 쇼핑몰 '퍼퓸그라피'</a></li>
+      <li><a href="https://chemicalguys-korea.com">세차 쇼핑몰 '케미컬가이'</a></li>
+      <li><a href="https://shinefreak.shop">세차 쇼핑몰 '샤인프릭샵'</a></li>
+      <li><a href="https://smartstore.naver.com/selfwash?NaPm=ct%3Dlil1nm47%7Cci%3Dcheckout%7Ctr%3Dds%7Ctrx%3Dnull%7Chk%3Dd6bb810deb38b6cb3c41523d2222550278963ca7">
+        세차 쇼핑몰 '오토워시'</a></li>
+  </ul>
+</div>
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RhONDbsFg-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/AW_5SNV4wsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</body>
+
+</html>
