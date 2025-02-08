@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calendar</title>
+  <link rel="stylesheet" type="text/css" href="./css/Calendar.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="list">
+      <h2>List</h2>
+      <div class="input-container">
+        <input type="text" id="inputField" placeholder="추가할 내용을 입력하세요.">
+        <button id="addButton">추가</button>
+        <button id="deleteButton">삭제</button>
+      </div>
+      <ul id="listItems"></ul>
+    </div>
+
+    <div class="calendar">
+      <div class="header">
+        <button id="prevBtn">&lt;</button>
+        <h2 id="monthYear"></h2>
+        <button id="nextBtn">&gt;</button>
+      </div>
+      <table id="calendarTable">
+        <thead>
+          <tr>
+            <th class="sun">일</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+            <th class="sat">토</th>
+          </tr>
+        </thead>
+        <tbody id="calendarBody"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="./js/Calendar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Car</title>
+    <link rel="stylesheet" type="text/css" href="./detail_html_css/AboutCar.css">
+    <script src="./detail_html_js/AboutCar.js"></script>
+    <style>
+        body {
+            background-image: url(./detail_html_image/Whitewall.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>내 차에 관련된 모든 것</h1>
+
+    <div id="EngineOil">
+        <h2>엔진오일 교체 주기 계산기</h2>
+        <div class="form-group">
+            <label for="currentKm">현재 주행 거리 (km):</label>
+            <input type="number" id="currentKm" placeholder="주행 거리 입력">
+        </div>
+        <div class="form-group">
+            <label for="EngineOilInterval">엔진오일 교체 주기 (km):</label>
+            <input type="number" id="EngineOilInterval" placeholder="엔진오일 교체 주기 입력">
+        </div>
+        <div class="form-group">
+            <button onclick="calculateEngineOilInterval()">계산하기</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <div id="CarWash">
+        <h2>세차 용품 구매</h2>
+        <a href="https://chemicalguys-korea.com" class="no-underline">
+            <img src="./detail_html_image/ChemicalGuys.jpeg" alt="케미컬가이_바로가기" class="image-link"></a><br>
+        <a href="https://shinefreak.shop" class="no-underline">
+            <img src="./detail_html_image/ShineFreak.jpeg" alt="샤인프릭_온라인_스토어_바로가기" class="image-link"></a><br>
+        <a href="https://smartstore.naver.com/selfwash" class="no-underline">
+            <img src="./detail_html_image/AutoWash.jpg" alt="네이버스토어_오토워시_바로가기" class="image-link"></a>
+    </div>
+
+    <div id="CarWashHelp" style="display: flex; flex-direction: column; align-items: center;">
+        <h2 style="text-align: center;">세차 도움 관련 링크</h2>
+        <div style="position: relative; height:0; padding-bottom: 56.25%; margin: 40px 0px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/sNBcP5oTE7U"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
