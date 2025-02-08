@@ -1,0 +1,25 @@
+/* 하이퍼링크 밑줄 없애기 */
+a {
+    text-decoration-line: none;
+}
+
+
+/* 방문 전 글자색 */
+a:link { 
+    color: grey;
+}
+
+/* 방문 후 글자색 */
+a:visited {
+    color: black;
+}
+
+/* 커서 올릴 때 글자색 */
+a:hover {
+    color: skyblue;
+}
+
+/* 클릭 on ~ 클릭 off 글자색 */
+a:active {
+    color: blue;
+}

@@ -1,0 +1,22 @@
+figure {
+    margin-top: 150px;
+}
+
+img {
+    float: left;
+    margin-right: 32px;
+    width: 400px; 
+    height: auto; 
+}
+figcaption {
+    font-weight: bold; 
+}
+
+.first-line {
+    font-weight: bolder; 
+    font-size: 36px;
+}
+
+.second-line {
+    background-color: #fbceb1;
+}

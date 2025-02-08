@@ -1,0 +1,47 @@
+ h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  #button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  button {
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-size: cover;
+    width: 125px;
+    height: 125px;
+    border: none;
+    opacity: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  
+  #spring {
+    background-image: url('../detail_html_image/spring.jpg');
+  }
+  
+  #summer {
+    background-image: url('../detail_html_image/summer.jpg');
+  }
+  
+  #autumn {
+    background-image: url('../detail_html_image/autumn.jpg');
+  }
+  
+  #winter {
+    background-image: url('../detail_html_image/winter.jpg');
+  }
+  

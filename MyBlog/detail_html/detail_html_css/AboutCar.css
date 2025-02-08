@@ -1,0 +1,72 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px whitesmoke;
+}
+
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#CarWash {
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#CarWash .no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+#CarWash .image-link {
+    display: block;
+    margin-top: 10px;
+}
+
+#CarWash .image-link {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+
