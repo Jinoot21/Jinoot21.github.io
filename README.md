@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Jinoot</title>
   </head>
   <body>
     <h1>GitHub Page 연습 </h1>
