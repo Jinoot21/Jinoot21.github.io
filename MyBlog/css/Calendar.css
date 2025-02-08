@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;   
+  align-items: center;    
+}
+
+.list {
+  width: 25%; 
+  height: 100%;
+  padding: 20px;
+  border-right: 2px solid #000;
+  margin-right: 5px; 
+}
+
+.list h2 {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+#inputField {
+  width: 100%;
+  padding: 5px;
+}
+
+#addButton {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#deleteButton {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#listItems {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar {
+  flex: 1; 
+  height: 100%;
+  padding: 20px;
+  border: 2px solid #000;
+  margin-left: 5px; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#prevBtn,
+#nextBtn {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#monthYear {
+  font-size: 24px;
+}
+
+#calendarTable {
+  width: 100%;
+}
+
+#calendarTable th,
+#calendarTable td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#calendarTable .sun {
+  color: red;
+}
+
+#calendarTable .sat {
+  color: blue;
+}
+
+/* 오늘 날짜 */
+#calendarTable .today {
+  background-color: rgb(181,214,146);
+  font-weight: bold;
+}
+
+.selected-date {
+  font-weight: bold;
+}
+
+/* 선택한 날짜 */
+#calendarTable .selected {
+  background-color: rgb(163, 204, 163);   
+  font-weight: bold;
+}     
+
+.delete-container {
+  margin-top: 20
+}

@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+}
+
+#ErrorMessage {
+  width: 95%;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  border: 1px solid black;
+  background-color: red;
+  opacity: 0;
+}
+
+#LoginPage {
+  width: 390px;
+  margin: 200px auto auto auto;
+}
+
+#Log-in{
+    color: #2DB400;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#LoginForm{
+  margin: 25px 0px 0px 60px;
+}
