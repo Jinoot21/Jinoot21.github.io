@@ -1,8 +1,10 @@
 /* 전체 */
 body {
-    font-family: Pretendard, sans-serif;
+    font-family: Inter, sans-serif;
     margin: 0;
     padding: 0;
+    font-weight: 400; /* 글자 굵기 */
+    line_height: 1.6; /* 줄간격 */
     background-color: #f9f9f9;
     text-align: center;
 }
@@ -21,6 +23,7 @@ header {
 }
 
 h1 {
+    font-family: Pretendard, sans-serif;
     color: black;
     margin: 0;
     font-size: 32px;
@@ -28,6 +31,7 @@ h1 {
 }
 
 h2 {
+    font-family: Pretendard, sans-serif;
     color: rgb(105, 105, 105);
     margin: 10px 0 0;
     font-size: 22px;
